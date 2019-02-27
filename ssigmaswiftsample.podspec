@@ -30,7 +30,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ssigmaswiftsample/Classes/**/*'
+  # s.source_files = 'ssigmaswiftsample/Classes/**/*'
+  s.source_files = 'ssigmaswiftsample/Classes/*'
   
   # s.resource_bundles = {
   #   'ssigmaswiftsample' => ['ssigmaswiftsample/Assets/*.png']
