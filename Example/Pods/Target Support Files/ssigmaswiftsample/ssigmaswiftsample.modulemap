@@ -1,0 +1,6 @@
+framework module ssigmaswiftsample {
+  umbrella header "ssigmaswiftsample-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - ssigmaswiftsample (0.1.0)
+
+DEPENDENCIES:
+  - ssigmaswiftsample (from `../`)
+
+EXTERNAL SOURCES:
+  ssigmaswiftsample:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ssigmaswiftsample: 9f7e2f1910a22778b6f089b743e3876f43a88d26
+
+PODFILE CHECKSUM: 67ef5a4ed3e2660e05cdec397234c633e9f89004
+
+COCOAPODS: 1.6.1

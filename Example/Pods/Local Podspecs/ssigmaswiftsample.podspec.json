@@ -1,0 +1,22 @@
+{
+  "name": "ssigmaswiftsample",
+  "version": "0.1.0",
+  "summary": "A short description of ssigmaswiftsample.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kaito2/ssigmaswiftsample",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kaito2": "kaito.iwatsuki@nislab.doshisha.ac.jp"
+  },
+  "source": {
+    "git": "https://github.com/kaito2/ssigmaswiftsample.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ssigmaswiftsample/Classes/**/*"
+}
