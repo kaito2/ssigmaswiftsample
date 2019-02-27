@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ssigmaswiftsample_Example' do
+  pod 'ssigmaswiftsample', :path => '../'
+
+  target 'ssigmaswiftsample_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
