@@ -61,7 +61,7 @@
 		C2A1EC688F5D265DADDE7DB2D1979B2C /* Pods_ssigmaswiftsample_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ssigmaswiftsample_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7A44635FCEEE22D606FCBB67FE06C25 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CBDF7C72865C9A02E1D6CA7A775F6174 /* ssigmaapisample.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ssigmaapisample.swift; path = ssigmaswiftsample/Classes/ssigmaapisample.swift; sourceTree = "<group>"; };
+		CBDF7C72865C9A02E1D6CA7A775F6174 /* ssigmaapisample.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ssigmaapisample.swift; sourceTree = "<group>"; };
 		CC18107B08FAC7B2C22FA58848E797FB /* Pods-ssigmaswiftsample_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ssigmaswiftsample_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CFBA8D8287AEA0F9C206DCEB87F9857C /* Pods-ssigmaswiftsample_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ssigmaswiftsample_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E35F51A6D016052FED20F359750300CD /* ssigmaswiftsample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ssigmaswiftsample-Info.plist"; sourceTree = "<group>"; };
@@ -132,6 +132,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		433000242226A924001F2264 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CBDF7C72865C9A02E1D6CA7A775F6174 /* ssigmaapisample.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		4BEF13AF07633889C32DFBDCAE4AD912 /* Pods-ssigmaswiftsample_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,7 +207,7 @@
 		D76E06C11BCB4F63AEDEBAF1AA96C386 /* ssigmaswiftsample */ = {
 			isa = PBXGroup;
 			children = (
-				CBDF7C72865C9A02E1D6CA7A775F6174 /* ssigmaapisample.swift */,
+				433000242226A924001F2264 /* Classes */,
 				7C6CB01904408C06C9CFB0BE92A54FF6 /* Pod */,
 				EE7BFEE32C54190B566D5A18964146C2 /* Support Files */,
 			);
